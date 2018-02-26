@@ -1,0 +1,39 @@
+body {
+  background-image: url("../assets/site/mapblue.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin: 0;
+}
+.sideline {
+  width: 400px;
+  height: 100%;
+  background: gray;
+  position: absolute;
+  right: 0px;
+}
+.search {
+  position: absolute;
+  bottom: 20px;
+  right: 5px;
+  width: 200px;
+}
+.button {
+  position: absolute;
+  bottom: 20px;
+  right: 220px;
+  width: 100px;
+}
+.container {
+  max-width: 75%;
+  height: 100%;
+  float: left;
+  padding: 10px;
+}
+img:hover {
+  background: gray;
+  cursor: pointer;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
